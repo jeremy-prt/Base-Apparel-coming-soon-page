@@ -99,6 +99,7 @@ input::placeholder {
 
 .action {
   display: flex;
+  position:relative;
 }
 
 button {
@@ -108,7 +109,7 @@ button {
   background: var(--Gradient2);
   border: none;
   position: absolute;
-  left: 500px;
+  right: 0;
   cursor: pointer;
 }
 
@@ -165,7 +166,5 @@ button:hover {
   .container-content .content h1 {
     font-size: 3em;
   }
-  button {
-    left: 265px;
-  }
+
 }
